@@ -1,0 +1,6 @@
+name: irc_message
+version: 1.0.0
+description: Modern IRC parser
+author: Fionn Kelleher <me@fionn.co>
+dependencies:
+  unittest: any
