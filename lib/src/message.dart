@@ -54,7 +54,7 @@ class Message {
                             this.prefix.indexOf("!") == -1 &&
                             this.prefix.indexOf(".") != -1;
 
-    String getHostmask() {
+    Map<String, String> getHostmask() {
         String regex = new RegExp("[!@]");
         List extracts = this.prefix.split(regex);
 
